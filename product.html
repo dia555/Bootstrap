@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Apple Store</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="icon" href="9.png">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <!-- Links -->
+    <a class="navbar-brand" href="ecommerce.html">Bootstrap Store</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Categories</a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+            <li><a class="dropdown-item" href="category.html">All Categories</a></li>
+            <li><a class="dropdown-item" href="category.html">iPhon</a></li>
+            <li><a class="dropdown-item" href="category.html">Watch</a></li>
+            <li><a class="dropdown-item" href="category.html">iPad</a></li>
+            <li><a class="dropdown-item" href="category.html">Music</a></li>
+            <li><a class="dropdown-item" href="category.html">Mac</a></li>
+            <li><a class="dropdown-item" href="category.html">TV</a></li>
+          </ul>
+        </li>
+
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+      </ul>
+
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a href="#"><span class="badge pull-right"><i class="fas fa-shopping-cart" style="color:white;"></i>4</span></a>
+        </li>&nbsp;&nbsp;
+        <li class="nav-item">
+          <a href="account.html"><i class="fas fa-user col-sm" style="color: white;"></i></a>
+        </li>
+        <li class="nav-item">
+          <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="nav-link">Sign in</a>
+        </li>
+      </ul>
+  </nav>
+
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Sign in</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form class="form-signin" role="form">
+            <h3 class="form-signin-heading">Sign in with your email address</h3>
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Email address" required autofocus><br />
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control" placeholder="Password" required><br />
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="remember-me"> Remember me</label>
+            </div><br />
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+          </form>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <a href="#" class="btn btn-facebook btn-large btn-caps btn-block">Facebook</i></a>
+          </div>
+          <div class="col-md-3">
+            <a href="" class="btn btn-twitter btn-large btn-caps btn-block">Twitter</i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br />
+  <div id="content" class="container">
+    <div class="row">
+      <div class="col-sm-4 col-md-3">
+        <h3>Categories</h3>
+        <div class="list-group">
+          <a href="category.html" class="list-group-item">All Categories</a>
+          <a href="category.html" class="list-group-item">iPhon</a>
+          <a href="category.html" class="list-group-item">Watch</a>
+          <a href="category.html" class="list-group-item">iPad</a>
+          <a href="category.html" class="list-group-item">Music</ a>
+          <a href="category.html" class="list-group-item">Mac</a>
+          <a href="category.html" class="list-group-item">TV</a>
+        </div>
+      </div>
+
+      <div class="col-sm-4 col-md-5">
+        <div class="thumbnail">
+          <div class="row">
+            <img src="13.png" class="w-750x600" alt="">
+            <div class="thumbnails">
+              <br />
+              <div class="row">
+                <div class="col-sm-2 col-md-3">
+                  <img src="6.png" class="w-750x600" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4 col-md-4">
+        <h4 class="justify-content-end">$700</h4>
+        <h4><a href="product.html">iPhone 12 mini</a></h4>
+        <p><h5>GENERAL CHARACTERISTICS:</h5></p>
+        <p>Operating system: iOS 14</p>
+        <p>Number of SIM-cards: 1</p>
+        <p>Display diagonal: 5.4-inch</p>
+        <p>Internal memory: 128GB</p>
+        <p>Main camera: 12 Mpx</p>
+        <p>Front camera: 12 Mpx</p>
+        <p>Functions and Features: Screen Flash, Dual Camera, Support 4G, Support 5G, Dust / Water Resistant, Face Recognition, NFC</p>
+        <form role="form">
+          <div class="number form-group">
+            <label class="control-label" for="number">Number</ label>
+              <input type="number" class="form-control input-sm" id="number" />
+          </div><br />
+          <div class="form-group">
+            <label>Color:</label>
+            <select id="color">
+              <option name="color">Blue</option>
+              <option name="color">Green</option>
+              <option name="color">(PRODUCT)RED</option>
+              <option name="color">White</option>
+              <option name="color">Black</option>
+              <option name="color">Purple</option>
+            </select>
+          </div><br />
+
+          <div class="form-group">
+            <div>
+              <p>(PRODUCT)RED: Every iPhone 12 (PRODUCT)RED purchase now contributes directly to the Global Fund to combat COVID‑19.</p>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <button type="submit" class="btn btndefault">Contact Seller</button>
+            <button type="submit" class="btn btn-success">Add to
+              Cart</button>
+          </div>
+        </form>
+
+      </div>
+    </div>
+
+    <div class="description">
+      <p>
+        The most powerful compact iPhone ever.
+        Powerful features in a small 5.4-inch body.
+        Stunning Super Retina XDR display Ceramic Shield
+        front panel with 4x lower risk of display damage if
+        dropped. A14 Bionic, the fastest iPhone processor.
+        Filming, editing and playback of cinematic-quality
+        video in the Dolby Vision standard. Stunning low
+        light performance with Night Mode on all cameras.
+      </p>
+    </div>
+    <div class="ratings">
+      <p class="float-end">3 reviews</p>
+      <p>
+        <span class="fas fa-star"></span>
+        <span class="fas fa-star"></span>
+        <span class="fas fa-star"></span>
+        <span class="fas fa-star"></span>
+        <span class="fas fa-star"></span>
+        5.0 stars
+      </p>
+    </div>
+
+    <br /><br /><br />
+    <div class="well">
+      <div class="d-flex justify-content-end">
+        <a class="btn btn-success">Leave a Review</a>
+      </div><br /><br />
+
+      <div class="row">
+        <div class="col-md-12">
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          David More
+          <span class="float-end">5 day ago</span>
+          <p>From <em>Kz</em></p>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-12">
+        <span class="fas fa-star"></span>
+        <span class="fas fa-star"></span>
+        <span class="fas fa-star"></span>
+        <span class="fas fa-star"></span>
+        <span class="fas fa-star"></span>
+        El'
+        <span class="float-end">3 days ago</span>
+        <p>From <em>US</em></p>
+        <p>Incredible camera!</p>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-12">
+        <span class="fas fa-star"></span>
+        <span class="fas fa-star"></span>
+        <span class="fas fa-star"></span>
+        <span class="fas fa-star"></span>
+        <span class="fas fa-star"></span>
+        Dias S.
+        <span class="float-end">4 days ago</span>
+        <p>From <em>UK</em></p>
+        <p>Very good smartphoneCompact and handy flagship!
+          Absolutely everything can! The difference with the
+          usual iphone 12 is only the size! Due to the more
+          compact display, the battery holds like a big brother,
+          enough for a day! Nothing is buggy! There are no complaints
+          about the sensor at all! I recommend taking 256 gb or 128 gb!
+          For everyone who loved the Iphone SE and SE2, I recommend it!
+          Do not like paws, take it!.</p>
+      </div>
+    </div><br />
+
+    <div class="row">
+      <div class="col-md-12">
+        <h3> Other products: </h3>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img src="7.png" class="w-100" alt="">
+          <div class="add-to-cart">
+            <a href="#" class="d-flex justify-content-center" title="Add to cart"><button class="btn btn-success btn-circle btn-lg"><i class="fas fa-plus"></i></button></a>
+          </div>
+          <div class="caption">
+            <h4 class="float-end">$400</h4>
+            <h4><a href="product.html">Apple Watch Series 6</a>
+            </h4>
+            <p>The aluminum case is lightweight and made from 100 percent recycled aerospace-grade alloy.</p>
+            <div class="ratings">
+              <p class="float-end"><a href="product.html#comments">13 reviews</a></p>
+              <p>
+                <span class="fas fa-star"></span>
+                <span class="fas fa-star"></span>
+                <span class="fas fa-star"></span>
+                <span class="fas fa-star"></span>
+                <span class="far fa-star"></span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img src="12.png" class="w-100" alt="">
+          <div class="add-to-cart">
+            <a href="#" class="d-flex justify-content-center" title="Add to cart"><button class="btn btn-success btn-circle btn-lg"><i class="fas fa-plus"></i></button></a>
+          </div>
+          <div class="caption">
+            <h4 class="float-end">$1250</h4>
+            <h4><a href="product.html">13-inch MacBook Air</a>
+            </h4>
+            <p>Apple M1 Chip with 8-Core CPU and 8-Core GPU 512GB Storage</p>
+            <div class="ratings">
+              <p class="float-end"><a href="product.html#comments">15 reviews</a></p>
+              <p>
+                <span class="fas fa-star"></span>
+                <span class="fas fa-star"></span>
+                <span class="fas fa-star"></span>
+                <span class="fas fa-star"></span>
+                <span class="far fa-star"></span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img src="11.png" class="w-100" alt="">
+          <div class="add-to-cart">
+            <a href="#" class="d-flex justify-content-center" title="Add to cart"><button class="btn btn-success btn-circle btn-lg"><i class="fas fa-plus"></i></button></a>
+          </div>
+          <div class="caption">
+            <h4 class="float-end">$200</h4>
+            <h4><a href="product.html">Apple TV 4K</a>
+            </h4>
+            <p>64GB Storage</p>
+            <div class="ratings">
+              <p class="float-end"><a href="product.
+      html#comments">15 reviews</a></p>
+              <p>
+                <span class="fas fa-star"></span>
+                <span class="fas fa-star"></span>
+                <span class="fas fa-star"></span>
+                <span class="fas fa-star"></span>
+                <span class="far fa-star"></span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <hr />
+    <!-- Footer -->
+    <footer>
+      <div class="row">
+        <div class="d-flex justify-content-center">
+          <p align="center">&copy; <a href="ecommerce.html">Packt Publishing</a> 2021</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
